@@ -21,12 +21,9 @@
 The system architecture of LIO-SAM method described in the following diagram,
 please look at the official repository for getting more information.
 
-<figure markdown>
-  ![lio-sam-architecture](images/system.png){ align=center width="960"}
-  <figcaption>
-    System Architecture of LIO-SAM
-  </figcaption>
-</figure>
+![system (1)](https://github.com/Robicarr-Karsan/LIO-SAM/assets/136509061/477e4143-95c5-40a8-b062-ba5a07b2129f)
+
+
 
 We are using [Robosense Helios 5515](https://www.robosense.ai/en/rslidar/RS-Helios) and [CLAP B7](https://en.unicorecomm.com/assets/upload/file/CLAP-B7_Product_Brief_En.pdf) sensor on tutorial_vehicle,
 so we will use these sensors for running LIO-SAM.
@@ -205,12 +202,8 @@ to each other. The tool may need a transformation for IMU for that.
 
 - In the end, we got this transform visualization in RViz:
 
-<figure markdown>
-  ![lio-sam-imu-direction](images/LIO-SAM-imu-direction.png){ align=center width="512"}
-  <figcaption>
-    Transform Visualization of Applanix POS LVX and Hesai Pandar XT32 in RViz
-  </figcaption>
-</figure>
+![LIO-SAM-imu-direction](https://github.com/Robicarr-Karsan/LIO-SAM/assets/136509061/0f1e831b-e3cd-479a-9160-d7483ab5cc31)
+
 
 Now, we are ready to create a map for Autoware.
 
@@ -245,12 +238,8 @@ please follow [convert-utm-to-mgrs-map](../../converting-utm-to-mgrs-map) page.
 
 ## Example Result
 
-<figure markdown>
-  ![lio-sam-output](images/LIO-SAM-output.png){ align=center width="512"}
-  <figcaption>
-    Sample Map Output for our Campus Environment
-  </figcaption>
-</figure>
+![LIO-SAM-output](https://github.com/Robicarr-Karsan/LIO-SAM/assets/136509061/7354e730-2d6b-4f1b-9a6b-281e02dafd22)
+
 
 ## Paper
 
